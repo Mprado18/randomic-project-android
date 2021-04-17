@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View?) {
         if (v?.id == R.id.buttonRandom || v?.id == R.id.textNumber) {
-            val id = random()
+            textNumber.text = random().toString()
         }
     }
 
