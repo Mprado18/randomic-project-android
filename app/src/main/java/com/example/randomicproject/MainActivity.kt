@@ -12,6 +12,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        if (supportActionBar != null) {
+            supportActionBar!!.hide()
+        }
+
         buttonRandom.setOnClickListener(this)
         textNumber.setOnClickListener(this)
     }
