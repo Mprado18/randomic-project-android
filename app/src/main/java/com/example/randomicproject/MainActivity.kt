@@ -3,30 +3,34 @@ package com.example.randomicproject
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import kotlinx.android.synthetic.main.activity_main.*
+import com.example.randomicproject.databinding.ActivityMainBinding
 import kotlin.random.Random
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
 
         if (supportActionBar != null) {
             supportActionBar!!.hide()
         }
 
-        buttonRandom.setOnClickListener(this)
-        textNumber.setOnClickListener(this)
+        binding.buttonRandom.setOnClickListener(this)
+        binding.textNumber.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
         if (v?.id == R.id.buttonRandom || v?.id == R.id.textNumber) {
-            textNumber.text = random().toString()
+            binding.textNumber.text = random().toString()
         }
     }
 
-    fun random(): Int {
+    private fun random(): Int {
         return Random.nextInt(100) + 1
     }
 }
