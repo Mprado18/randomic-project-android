@@ -13,9 +13,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="145dp"
         android:fontFamily="@font/orbitron_medium"
-        android:text="0"
+        android:text="@string/zero"
         android:textColor="@color/white"
-        android:textSize="80dp"
+        android:textSize="80sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
