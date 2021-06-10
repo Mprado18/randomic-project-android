@@ -16,16 +16,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         val view = binding.root
         setContentView(view)
 
-        if (supportActionBar != null) {
-            supportActionBar!!.hide()
-        }
+        supportActionBar!!.hide()
 
         binding.buttonRandom.setOnClickListener(this)
         binding.textNumber.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
-        if (v?.id == R.id.buttonRandom || v?.id == R.id.textNumber) {
+        if (v?.id == R.id.button_random || v?.id == R.id.text_number) {
             binding.textNumber.text = random().toString()
         }
     }
