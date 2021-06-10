@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">randomic project</string>
     <string name="generate_random">Generate Random</string>
-    <string name="zero">0</string>
+    <string name="number">0</string>
 </resources>

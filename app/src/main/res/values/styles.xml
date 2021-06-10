@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="button_style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="backgroundTint">@color/android_green</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
+    <style name="number_style">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">80sp</item>
+        <item name="android:fontFamily">@font/orbitron_medium</item>
+    </style>
+
+</resources>
