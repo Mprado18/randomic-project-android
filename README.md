@@ -8,14 +8,22 @@ Este projeto foi desenvolvido durante o curso de desenvolvimento em Kotlin para 
 
 O app foi construido com a linguagem Kotlin e seu layout desenvolvido diretamente via xml na IDE Android Studio.
 
+<div align="center">
+
 ## Tela principal
-[![app](https://i.imgur.com/yfqnwT6.png?1 "app")](https://i.imgur.com/yfqnwT6.png?1 "app")
+  
+<img src= https://i.imgur.com/XXGKfMv.png />
 
 ## Demonstração do aplicativo em execução
-<img src="https://i.imgur.com/JkPIHmJ.gif"/>
+  
+<p align="center">
+  <img src= https://i.imgur.com/OxKap6i.png />
+  
+  <img src= https://i.imgur.com/Re5aL7L.png />
+</p>
+  
+</div>
 
 ## Como executar o app?
 
 Para rodar o app, deverá realizar um git clone ou baixar .zip e abrir em um diretório local o projeto na IDE Android Studio e executar o emulador Android dentro do projeto.
-
-[1]: https://imgur.com/JkPIHmJ "app in execution"
